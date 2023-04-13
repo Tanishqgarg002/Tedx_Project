@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "inter",sans-serif;
+    color: white;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+body{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+body>div{
+    height: 100vh;
+    overflow-x:hidden;
+    overflow-y: scroll;
+    background-size: contain;
+    background-position: right;
+    background-color: black;
+    background-image: url(team/mandala.webp);
+    background-repeat: no-repeat;    
+}
+section{
+    font-family: "inter",sans-serif;
+}
+a{
+    color: #fff;
+}
+.teams-container{
+    text-align: center;
+    padding-top: 12vh;
+    width: inherit;
+}
+.page-title{
+    color: #ff2b06;
+    font-size: 3rem;
+    text-shadow: 0 0 10px red;
+}
+
+.team-container{
+    margin-top: 6vh;
+    display: flex;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.team-container>h3{
+    font-size: 1.3rem; 
+    text-decoration:underline;
+}
+.team-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/* till here */
