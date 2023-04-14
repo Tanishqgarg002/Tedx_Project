@@ -1,0 +1,133 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="tedx_project.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://kit.fontawesome.com/242961b1f1.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=inter&family=martel&display=swap" rel="stylesheet" />
+    <link rel="icon" href="favicon.ico" />
+    <title>TEDxNITKKR</title>
+    <script src="tedx_project_header.js" type="text/javascript" defer></script>
+    <script src="tedx_project_footer.js" type="text/javascript" defer></script>
+</head>
+
+<body>
+    <ted-header></ted-header>
+    <section id="home">
+        <div class="landing-main">
+            <div class="landing-content">
+                <p class="theme-title">नव विहानम</p>
+                <small class="theme-subtitle"> /a new dawn/</small>
+                <p class="theme-content">
+                    With new ambitions, new aspirations and new
+                    <br>
+                    affirmations, TEDxNITKKR brings you
+                    <br>
+                    breakthrough and
+                    thought-provoking
+                    talks and
+                    <br>
+                    ideas that inspire.
+                    <br>
+                </p>
+                <button type="button" id="regbtn" class="btn-ticket">REGISTER</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" data-aos="fade-up">
+        <div class="content-main">
+            <div class="content-container">
+                <div class="content-header">
+                    <img class="content-logo" src="mandala-1.png" />
+                    <div class="content-title">
+                        ABOUT <span class="reded">TEDxNITKKR</span>
+                    </div>
+                </div>
+                <div class="content-body">
+                    <div class="content-text">
+                        In the spirit of ideas worth spreading, TED has created a program called TEDx. TEDx is a program
+                        of local, self-organized events that bring people together to share a TED-like experience. Our
+                        event is called TEDxNITKKR, where x = independently organized TED event. At our TEDxNITKKR
+                        event, TED Talks video and live speakers will combine to spark deep discussion and connection in
+                        a small group. The TED Conference provides general guidance for the TEDx program, but individual
+                        TEDx events, including ours, are self-organized.
+                        <div class="content-schedule">
+                            <i class="far fa-calendar text-icon"></i>4th March 2023<br>
+                            <i class="fas fa-location-dot text-icon"></i>Jubilee Hall, NIT Kurukshetra<br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="speakers" data-aos="fade-up">
+        <div class="content-main">
+            <div class="content-container">
+                <div class="content-header">
+                    <img class="content-logo" src="mandala-1.png" />
+                    <div class="content-title">
+                        SPEAKERS
+                    </div>
+                </div>
+                <div class="content-body">
+                    <div class="content-box">
+
+                        <img class="speaker-prof" src="speakers/s1.png" />
+                        <p class="speaker-name">Ami Ganatra</p>
+                        <p class="speaker-details">Author: Mahabharata Unravelled (Bloomsbury'21), <br>Ramayana
+                            Unravelled (Bloomsbury'22)</p>
+                    </div>
+                    <div class="content-box">
+                        <img class="speaker-prof" src="speakers/s2.png" />
+                        <p class="speaker-name">Krishnan Sunderarajan</p>
+                        <p class="speaker-details">Founder, LOKA-India's First Metaverse App</p>
+                    </div>
+                    <div class="content-box">
+                        <img class="speaker-prof" src="speakers/s3.png" />
+                        <p class="speaker-name">Rhythm Malhotra</p>
+                        <p class="speaker-details">Chief Trainer, Skillette School | Image Counselor</p>
+                    </div>
+                    <div class="content-box">
+                        <img class="speaker-prof" src="speakers/s4.png" />
+                        <p class="speaker-name">Chinmay Gaur</p>
+                        <p class="speaker-details">Flautist | Gold Medalist, Indian Classical Music</p>
+                    </div>
+                    <div class="content-box">
+                        <img class="speaker-prof" src="speakers/s5.png" />
+                        <p class="speaker-name">Armstrong Pame</p>
+                        <p class="speaker-details">IAS Officer | "Miracle Man" of India</p>
+                    </div>
+                    <div class="content-box">
+                        <img class="speaker-prof" src="speakers/s6.png" />
+                        <p class="speaker-name">Dristhi Kharbanda</p>
+                        <p class="speaker-details">Founder, Sarvani NGO | CEO, Womenmade Craft</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <ted-footer></ted-footer>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script type="text/javascript">
+        document.getElementById("regbtn").onclick = function () {
+            location.href = "https://docs.google.com/forms/d/e/1FAIpQLSeAxQzyop6TeDiEvo3BiwAVWK9kJLmNSIgTzqEQHP2YH6fhzQ/viewform";
+        };
+    </script>
+
+</body>
+
+</html>
+<!-- till here -->
